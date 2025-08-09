@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enphoria Coffee - Coffee Moments That Matter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="/public/logo-1.jpg" alt="Enphoria Coffee" class="nav__logo-img">
+                <span class="nav__brand">Enphoria Coffee</span>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <a href="#home" class="nav__link">Home</a>
+                <a href="#about" class="nav__link">About</a>
+                <a href="#menu" class="nav__link">Menu</a>
+                <a href="#menu-cards" class="nav__link">Menu Cards</a>
+                <a href="#gallery" class="nav__link">Gallery</a>
+                <a href="#contact" class="nav__link">Contact</a>
+            </div>
+            <div class="nav__actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-toggle__icon">🌙</span>
+                </button>
+                <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero__background">
+                <div class="coffee-bean coffee-bean--1"></div>
+                <div class="coffee-bean coffee-bean--2"></div>
+                <div class="coffee-bean coffee-bean--3"></div>
+                <div class="coffee-bean coffee-bean--4"></div>
+                <div class="coffee-bean coffee-bean--5"></div>
+                <div class="coffee-bean coffee-bean--6"></div>
+            </div>
+            <div class="hero__content">
+                <div class="hero__logo animate-scale-in">
+                    <img src="/public//logo-1.jpg" alt="Enphoria Coffee Logo" class="hero__logo-img">
+                    <div class="steam-animation">
+                        <div class="steam steam--1"></div>
+                        <div class="steam steam--2"></div>
+                        <div class="steam steam--3"></div>
+                    </div>
+                </div>
+                <h1 class="hero__title animate-fade-in">Enphoria Coffee</h1>
+                <p class="hero__tagline animate-fade-in">Coffee Moments That Matter</p>
+                <a href="http://enphoriacoffee.inmyarea.in" target="_blank" class="btn btn--primary btn--hero animate-slide-up">Order Now</a>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about__content">
+                    <div class="about__text animate-on-scroll">
+                        <h2 class="section-title">About Enphoria Coffee</h2>
+                        <p class="about__description">
+                            Welcome to Enphoria Coffee, where every cup tells a story and every moment matters. 
+                            Our passion for exceptional coffee drives us to source the finest beans from around 
+                            the world, roasted to perfection in small batches.
+                        </p>
+                        <p class="about__description">
+                            Since our founding, we've been committed to creating a warm, inviting space where 
+                            coffee lovers can gather, connect, and savor the perfect brew. Our skilled baristas 
+                            craft each cup with care, ensuring every sip delivers an unforgettable experience.
+                        </p>
+                        <div class="coffee-cup-icon">
+                            <div class="cup"></div>
+                            <div class="cup-steam">
+                                <div class="steam-line steam-line--1"></div>
+                                <div class="steam-line steam-line--2"></div>
+                                <div class="steam-line steam-line--3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__image animate-on-scroll">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1754728869/pplx_project_search_images/261f5d714da47612c458601abd5373fc5531c573.png" alt="Cafe Interior" class="about__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Highlights Section -->
+        <section class="menu" id="menu">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Menu Highlights</h2>
+                <div class="menu__grid" id="menu-grid">
+                    <!-- Menu items will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Cards Section -->
+        <section class="menu-cards" id="menu-cards">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Our Menu Cards</h2>
+                <div class="menu-cards__grid">
+                    <div class="menu-card">
+                        <img src="/public/menu-1.jpg" alt="Coffee Menu" class="menu-card__image">
+                        <!-- <h3>Coffee Selection</h3> -->
+                    </div>
+                    <div class="menu-card">
+                        <img src="/public/menu-2.jpg" alt="Food Menu" class="menu-card__image">
+                        <!-- <h3>Food Selection</h3> -->
+                    </div>
+                    <div class="menu-card">
+                        <img src="/public/menu-3.jpg" alt="Dessert Menu" class="menu-card__image">
+                        <!-- <h3>Desserts</h3> -->
+                    </div>
+                    <div class="menu-card">
+                        <img src="/public/menu-4.jpg" alt="Specialty Drinks" class="menu-card__image">
+                        <!-- <h3>Specialty Drinks</h3> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll">Our Products</h2>
+                <div class="gallery__grid" id="product-gallery">
+                    <!-- Product images will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact__content">
+                    <div class="contact__info animate-on-scroll">
+                        <h2 class="section-title">Visit Us</h2>
+                        <div class="contact__details">
+                            <div class="contact__item">
+                                <h3>Location</h3>
+                                <p>Atul Nagar, Warje, Pune, Maharashtra 411058</p>
+                                <div class="location-images">
+                                    <img src="/public//cafe-interior.jpg" alt="Cafe Exterior" class="location-image">
+                                    <img src="/public//cafe-exterior.jpg" alt="Cafe Interior" class="location-image">
+                                </div>
+                            </div>
+                            <div class="contact__item">
+                                <h3>Contact</h3>
+                                <p>+91 7058231834</p>
+                                <p>enphoriacoffee@gmail.com</p>
+                            </div>
+                            <div class="contact__item">
+                                <h3>Hours</h3>
+                                <div class="hours-grid" id="hours-grid">
+                                    <!-- Hours will be populated by JavaScript -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__map animate-on-scroll">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.79090105935!2d73.78551647496222!3d18.493128282595155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf5cdd317843%3A0x8027665f01cb3d6d!2sEnphoria%20Coffee!5e0!3m2!1sen!2sin!4v1754748013418!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3>Enphoria Coffee</h3>
+                    <p>Coffee Moments That Matter</p>
+                </div>
+                <div class="footer__social">
+                    <a href="https://www.instagram.com/enphoriacoffee?igsh=MXBqMGFlbmVodDNqZA== " class="social-link">📷 Instagram</a>
+                    <a href="#" class="social-link">📘 Facebook</a>
+                    <a href="#" class="social-link">🐦 Twitter</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Enphoria Coffee. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
