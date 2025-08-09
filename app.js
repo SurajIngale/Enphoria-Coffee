@@ -62,7 +62,7 @@ const appData = {
     name: "Enphoria Coffee",
     tagline: "Coffee Moments That Matter",
     address: "Atul Nagar, Warje, Pune, Maharashtra 411058",
-    phone: "+91 7058231834",
+    phone: "+91 7058231834, +91 7517023345",
     email: "hello@enphoriacoffee.com",
     hours: {
       monday: "11.00 AM - 11.00 PM",
