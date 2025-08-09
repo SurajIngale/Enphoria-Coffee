@@ -15,7 +15,7 @@ const appData = {
       price: "₹79",
       description: "Chilled coffee served with ice cubes and a smooth creamy texture.",
       category: "Cold Drinks",
-      image: "/public/3.jpg"
+      image: "public/3.jpg"
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const appData = {
       price: "₹99",
       description: "Refreshing cold coffee topped with a scoop of rich vanilla ice cream.",
       category: "Cold Drinks",
-      image: "/public/1.jpg"
+      image: "public/1.jpg"
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const appData = {
       price: "₹199",
       description: "Milkshake infused with KitKat chocolate for a crunchy delight.",
       category: "Shakes",
-      image: "/public/6.jpg"
+      image: "public/6.jpg"
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ const appData = {
       price: "₹199",
       description: "Creamy shake blended with Oreo cookies and chocolate syrup.",
       category: "Shakes",
-      image: "/public/11.jpg"
+      image: "public/11.jpg"
     },
     {
       id: 5,
@@ -47,7 +47,7 @@ const appData = {
       price: "99",
       description: "Crispy golden fries served with ketchup.",
       category: "Snacks",
-      image: "/public/20.jpg"
+      image: "public/20.jpg"
     },
     {
       id: 6,
@@ -55,7 +55,7 @@ const appData = {
       price: "119",
       description: "Spicy peri peri seasoned fries with a tangy kick.",
       category: "Snacks",
-      image: "/public/19.jpg"
+      image: "public/19.jpg"
     },
   ],
   cafeInfo: {
@@ -81,44 +81,12 @@ const appData = {
   },
   orderUrl: "https://order.enphoriacoffee.com",
   productImages: [
-     "/public/1.jpg",
-  "/public/10.jpg",
-  "/public/11.jpg",
-  "/public/12.jpg",
-  "/public/13.jpg",
-  "/public/14.jpg",
-  "/public/15.jpg",
-  "/public/16.jpg",
-  "/public/17.jpg",
-  "/public/18.jpg",
-  "/public/19.jpg",
-  "/public/20.jpg",
-  "/public/21.jpg",
-  "/public/22.jpg",
-  "/public/23.jpg",
-  "/public/24.jpg",
-  "/public/25.jpg",
-  "/public/26.jpg",
-  "/public/27.jpg",
-  "/public/28.jpg",
-  "/public/29.jpg",
-  "/public/3.jpg",
-  "/public/30.jpg",
-  "/public/31.jpg",
-  "/public/32.jpg",
-  "/public/33.jpg",
-  "/public/34.jpg",
-  "/public/35.jpg",
-  "/public/36.jpg",
-  "/public/37.jpg",
-  "/public/38.jpg",
-  "/public/39.jpg",
-  "/public/4.jpg",
-  "/public/5.jpg",
-  "/public/6.jpg",
-  "/public/7.jpg",
-  "/public/8.jpg",
-  "/public/9.jpg",
+     "public/1.jpg", "public/3.jpg", "public/4.jpg", "public/5.jpg",
+                "public/6.jpg", "public/7.jpg", "public/8.jpg", "public/9.jpg",
+                "public/10.jpg", "public/11.jpg", "public/12.jpg", "public/13.jpg",
+                "public/14.jpg", "public/15.jpg", "public/16.jpg", "public/17.jpg",
+                "public/18.jpg", "public/19.jpg", "public/20.jpg", "public/21.jpg",
+                "public/22.jpg", "public/23.jpg", "public/24.jpg", "public/25.jpg"
   ]
 };
 
